@@ -90,7 +90,7 @@
  /* Custom CSS to move carousel control buttons down */
 .carousel-control-prev,
 .carousel-control-next {
-    margin-top: 50px; /* Adjust the value as needed */
+    margin-top: 150px; /* Adjust the value as needed */
 }
 .carbtn{
    margin-top: 150px;
@@ -227,7 +227,7 @@
    .top-section h1 {
      font-size:2.5rem;
      left: 0px;
-     top: 80px;
+     top: 140px;
    }
  }
  @media only screen and (min-width: 601px) {
@@ -290,7 +290,8 @@
    border: dotted;
  }
  .twow{
-    margin-left: 60px; 
+   /* margin-top: 30px; */
+    margin-left: 50px; 
    height: 150px;
    width: 144px;
    background-color: rgb(132, 171, 171);
@@ -381,6 +382,14 @@
 .intro1{
    text-align: center;
 }
+.intro1 a p{
+   color: black;
+   text-decoration: none;
+   list-style-type: none;
+   text-align: center;
+   margin: 20px auto;
+   font-size: 2rem;
+}
 .intropara{
    text-align: left;
    margin: 40px auto;
@@ -431,10 +440,10 @@
 .introside  p{
    text-align: center;
    position: relative;
-   top: 20%;
+   top: 10%;
 }
-hr{
-   /* margin: 0 auto; */
+.intro22 hr{
+    margin: 0 auto; 
    width: 30%;
    border: dotted;
    border-top: none;
@@ -450,12 +459,11 @@ hr{
    background: url(images/compantlink-modified.jpeg);
    background-repeat: no-repeat;
    background-size: cover;
-   margin-left: 80px;
    width: 80%;
    max-width: 100%;
    height: 200px;
-   opacity: 0.4;
-   margin-bottom: 40px;
+   opacity: 0.8;
+   margin: 0 auto;
 }
 .companylink a{
    text-decoration: none;
@@ -601,6 +609,7 @@ hr{
 }
 .indus-video img{
    width: 450px;
+   max-width: 100%;
    height: 350px;
    display: block;
    margin: 0px auto;
@@ -636,6 +645,7 @@ hr{
 }
 .centerimage1{
    width: 450px;
+   max-width: 100%;
    height: 400px;
    display: block;
    margin: 0px auto;
@@ -731,9 +741,11 @@ hr{
    padding: 15px;
    margin: 10px;
    width: 460px;
+   max-width: 100%;
 }
 .contactintro textarea{
    margin: 20px auto;
+   max-width: 100%;
 }
 .check{
    display: block;
@@ -791,7 +803,7 @@ hr{
 .probtn{
    display: block;
    margin: 0 auto;
-   background-color: rgb(71, 235, 71);
+   background-color: rgb(127, 242, 127);
    padding: 8px;
    border: none;
    border-radius: 10px;
@@ -865,5 +877,29 @@ hr{
       display: flex;
       justify-content: center;
       align-items: center;
+   }
+   .twow{
+      margin-top: 40px; 
+      margin-left: 40px; 
+      height: 150px;
+      width: 144px;
+      background-color: rgb(132, 171, 171);
+      border-radius: 100%;
+      border: dotted;
+   }
+   .companylink a h2{
+      font-size: 1.5rem;
+      color:blue;
+   }
+   .products-intro span{
+      color: black;
+      font-size: 1.5rem;
+   }
+   .products-intro h1{
+      color: white;
+      position: relative;
+      top: 30%;
+      font-size: 1.5rem;
+    
    }
 }
