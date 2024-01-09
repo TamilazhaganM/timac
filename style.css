@@ -1,0 +1,869 @@
+*{
+    margin: 0;
+}
+#footer{
+   margin-top: 40px;
+}
+.nav-item{
+    margin-right: 50px;
+}
+.logo{
+    width: 200px;
+    height: 60px;
+}
+.top-section{
+    background-image: url(images/back2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    max-width: 100%;
+    height: 100vh;
+}
+.top-section h1{
+    color: white;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 35%;
+    font-size: 70px;
+    right: 20%;
+}
+
+/* expertise section */
+.expertise h1{
+    text-align: center;
+    margin: 35px auto;
+}
+.expertise h5{
+    margin: 20px auto;
+}
+.ex-col{
+    font-size:small;
+    margin-left: 10px;
+}
+.ex-col a{
+    color: gray;
+}
+.expert-image{
+    border-radius: 10px;
+    width: 250px;
+    height: 300px;
+}
+
+ /*  carousal- section  */
+ .slides {
+    border-radius: 100%;
+    margin: 30px auto ;
+    font-size:large;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    color: black;
+    background-color: gray;
+ }
+  .slide{
+    width: 70%;
+    margin: 20px auto;
+    padding: 20px
+ }
+  h6{
+    font-size: 1.5rem;
+    width:60% ;
+    margin: 10px auto;
+    text-align: center;
+ }
+ .carousel-control-prev{
+    color: blue;
+    background: gray;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+ }
+ .carousel-control-next{
+    color: blue;
+    background: gray;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+ }
+ /* Custom CSS to move carousel control buttons down */
+.carousel-control-prev,
+.carousel-control-next {
+    margin-top: 50px; /* Adjust the value as needed */
+}
+.carbtn{
+   margin-top: 150px;
+}
+
+
+ /* seconddiv */
+ .seconddiv{
+    background: url(images/solutiondiv.webp);
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+ }
+ .solutionbox{
+    /* background-color: white; */
+    position: absolute;
+    left: 0px;
+    top: 40px;
+    border-radius: 100%;
+ }
+ .seconddiv img{
+    width: 120px;
+    height: 120px;
+ }
+ .seconddiv li{
+    list-style-type: none;
+ }
+ .secondlink{
+    margin-left: 40px;
+    text-align: center;
+    font-size: 2rem;
+    color:black ;
+    background-color: rgb(234, 227, 227);
+    border-radius: 10px;
+ }
+ .plantdiv{
+    display: none;
+ }
+
+ /* Innovation section */
+ .innovation-div{
+    background: url(images/back3.jpg);
+ }
+ .firstbox{
+    display: inline-block;
+    color: white;
+    margin: 20px 0px;
+    background-color: rgb(93, 93, 218);
+    width: 300px;
+    height: 300px;
+ }
+ .Innovation-container{
+    background-color: rgb(193, 218, 218);
+ }
+ .innovation-carousal{
+    display: inline-block;
+    margin: -25px 0px;
+ }
+ .Innovation-container p{
+    margin: 20px 0px;
+ }
+ .innoimage{
+    height: 310px;
+    width: 250px;
+ }
+ 
+ /* lastsection */
+ .lastsection{
+    background: url(images/head\ \ pic.webp);
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 90vh;
+ }
+ .lastsection h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 200px;
+ }
+ .lastsection button{
+    font-size: 1rem;
+    padding: 10px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 280px;
+    background-color: antiquewhite;
+    width: 300px;
+    margin: 0px auto;
+    border-radius: 50px;
+ }
+/* footer section */
+.footerr{
+    color: white;
+    background-color: black;
+    padding: 20px
+}
+.footerr a{
+    color: gray;
+    text-decoration: none;
+}
+.lastimage1{
+    display: block; 
+    width: 200px;
+    height: 60px;
+}
+.social-item{
+    margin-left: 25px;
+    margin-top: 40px;
+}
+.aboutt{
+    display: block;
+   
+}
+.contact button{
+    font-size: 1rem;
+    padding: 10px;
+    color: black;
+    background-color: antiquewhite;
+    width: 200px;
+    margin: 0px auto;
+    border-radius: 50px; 
+}
+
+/* madia quries */
+@media only screen and (max-width: 920px) {
+   .top-section h1 {
+     font-size:2.5rem;
+     left: 0px;
+     top: 80px;
+   }
+ }
+ @media only screen and (min-width: 601px) {
+   .top-section h1 {
+     font-size:70px;
+     /* right: 10%; */
+     /* left: 10px auto;  */
+     top: 80px;
+   }
+ }
+
+
+ /* who we are section */
+ .back{
+   background: url(images/postere-A3-modified.jpeg);
+   height: 250px;
+   width: 100%;
+   background-repeat: no-repeat;
+   background-size:cover;
+ }
+ .back h1{
+   font-size: 60px;
+   position: relative;
+   top: 45%;
+ }
+ .wfirst{
+   text-align: center;
+   width: 800px;
+   max-width: 100%;
+   margin: 0 auto;
+ }
+ .wfirst h3{
+   font-weight: 400;
+   margin:60px auto ;
+ }
+ .wfirst p{
+   text-align: left;
+ }
+ .imagesection{
+   text-align: center;
+ }
+ .firstimsgeinw{
+   width: 300px;
+   height: 300px;
+ }
+ .secondimagew{
+   width: 300px;
+   height: 300px;
+ }
+ .roundimagesection{
+   justify-content: center;
+   margin-top: 50px;
+   margin-bottom: 50px;
+ }
+ .onew{
+   height: 150px;
+   width: 144px;
+   background-color: rgb(132, 171, 171);
+   border-radius: 100%;
+   border: dotted;
+ }
+ .twow{
+    margin-left: 60px; 
+   height: 150px;
+   width: 144px;
+   background-color: rgb(132, 171, 171);
+   border-radius: 100%;
+   border: dotted;
+ }
+ .threew{
+    margin-left: 60px; 
+   border-radius: 100%;
+   height: 150px;
+   width: 144px;
+   background-color: rgb(132, 171, 171);
+   border: dotted;
+ }
+ .roundimagesection h4{
+   position: relative;
+   top: 20%;
+ }
+ .roundimagesection p{
+   position: relative;
+   top: 20%;
+   text-align: center;
+ }
+ .features{
+   margin: 0px auto;
+   width: 800px;
+   max-width: 100%;
+ }
+ .features1{
+   width: 70%;
+   margin-top: 40px;
+ }
+.features h3 {
+   text-align: center;
+}
+.features .onew1{
+   margin-top: 40px;
+   margin-left: auto;
+   text-align: center;
+   height: 150px;
+   width: 144px;
+   background-color: rgb(132, 171, 171);
+   border-radius: 100%;
+   border: dotted;
+}
+.onew1 h4{
+   position: relative;
+   top: 20%;
+}
+.onew1 p{
+   position: relative;
+   top: 20%;
+}
+
+/* values section */
+.value h1{
+   text-align: center;
+   margin: 50px auto;
+}
+.value p{
+   margin: 40px auto;
+}
+ 
+
+/* The groupe roullier */
+.groupintro{
+   background: url(images/groback-modified.jpeg);
+   background-size: cover;
+   width: 100%;
+   height: 45vh;
+   background-repeat: no-repeat;
+}
+.grouplogo{
+   position: relative;
+   top: 30%;
+   left: 5%;
+   width: 80px;
+   height: 80px;
+   display: inline-block;
+}
+.groupintro h1{
+   position: relative;
+   top: 30%;
+   left: 5%;
+   display: inline-block;
+   color: white;
+}
+.intro1{
+   text-align: center;
+}
+.intropara{
+   text-align: left;
+   margin: 40px auto;
+   font-size: 1.2rem;
+   line-height: 2rem;
+}
+.video{
+   width: 350px;
+   height: 250px;
+   border-radius: 40px;
+   border: solid 2px black;
+}
+.playicon{
+   position: relative;
+   left: 20%;
+   top: 10px;
+   border: solid 2px black;
+   width: 100px;
+   border-radius: 10px;
+   background-color: rgb(228, 223, 223);
+}
+.playicon:hover{
+   background-color: rgb(188, 177, 177);
+}
+.introside{
+   margin: 30px auto;
+   width: 140px;
+   height: 140px;
+   background-color: antiquewhite;
+   border-radius:100%;
+}
+.intro2{
+   margin: 80px auto;
+}
+.intro2 p{
+   margin: 30px auto;
+   font-size: larger;
+}
+.intro22{
+   text-align: center;
+   margin: 0px auto;
+}
+.introside h4{
+   text-align: center;
+   position: relative;
+   top: 20%;
+}
+.introside  p{
+   text-align: center;
+   position: relative;
+   top: 20%;
+}
+hr{
+   /* margin: 0 auto; */
+   width: 30%;
+   border: dotted;
+   border-top: none;
+}
+.nutrients{
+   width: 600px;
+   max-width: 100%;
+   height: 500px;
+}
+
+/* companylink section */
+.companylink{
+   background: url(images/compantlink-modified.jpeg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin-left: 80px;
+   width: 80%;
+   max-width: 100%;
+   height: 200px;
+   opacity: 0.4;
+   margin-bottom: 40px;
+}
+.companylink a{
+   text-decoration: none;
+   display: flex;
+   justify-content: center;
+   position: relative;
+   top: 40%;
+}
+.companylink a h2{
+   font-size: 3rem;
+   color:blue;
+}
+
+/* expertise section */
+.expertbackground{
+   background: url(images/maxresdefault-modified\ \(2\).jpeg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 100%;
+   max-width: 100%;
+   height: 50vh;
+}
+.expertbackground h1{
+   font-size: 3.5rem;
+   position: relative;
+   top: 30%;
+   color: white;
+}
+.expertfirstdiv{
+   width: 600px;
+   max-width: 100%;
+}
+.expertfirstdiv h4{
+   text-align: center;
+   margin: 40px auto;
+   font-weight:lighter;
+}
+.eximages{
+   display: block;
+   margin: 0px auto;
+   width: 200px;
+   height: 200px;
+   border-radius: 100%;
+}
+.eximagesection p{
+   margin: 30px auto;
+   font-weight: bolder;
+   text-align: center;
+}
+.nutri img{
+   width: 250px;
+   height: 300px;
+}
+.btn a{
+   color: white;
+   text-decoration: none;
+}
+.nutri h1{
+   text-align: center;
+   margin: 40px auto;
+}
+.nutriton-italic{
+   font-size: large;
+   display: block;
+   width: 600px;
+   text-align: center;
+   margin: 0px auto;
+}
+.btn {
+   /* margin-top: 60px; */
+   display: block;
+   margin: 30px auto;
+   background: #3498db;
+   background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+   background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+   background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+   background-image: -o-linear-gradient(top, #3498db, #2980b9);
+   background-image: linear-gradient(to bottom, #3498db, #2980b9);
+   -webkit-border-radius: 28;
+   -moz-border-radius: 28;
+   border-radius: 28px;
+   font-family: Arial;
+   color: #ffffff;
+   font-size: 20px;
+   padding: 10px 20px 10px 20px;
+   text-decoration: none;
+ }
+ 
+ .btn:hover {
+   background: #3cb0fd;
+   background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+   background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+   background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+   background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+   background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+   text-decoration: none;
+ }
+
+ .prescrip h1{
+   text-align: center;
+   margin: 50px auto;
+ }
+ .prescrip2 img{
+   width: 500px;
+   max-width: 100%;
+   display: block;
+   margin: 0 auto;
+ }
+ .prescrip2 hr{
+   width:100% ;
+ }
+ .prescrip-italic{
+   font-size: large;
+   display: block;
+   text-align: center;
+   margin: 0px auto;
+ }
+ .natu img{
+   width:350px;
+   height: 330px;
+ }
+ .natu h1{
+   text-align: center;
+   margin: 50px auto;
+ }
+ .natu h3{
+   margin-bottom: 30px;
+ }
+ .natu p{
+   font-size: large;
+}
+.indust h1{
+   text-align: center;
+   margin: 50px auto;
+}
+.indust img{
+   width: 280px;
+   height: 180px;
+}
+.indust2 img{
+   width: 350px;
+   height: 280px;
+}
+.indus-video img{
+   width: 450px;
+   height: 350px;
+   display: block;
+   margin: 0px auto;
+   border-radius: 10px;
+}
+.indus-video button{
+   display: block;
+   margin: 0PX auto;
+}
+.indus-video h5{
+   text-decoration: none;
+   color: black;
+}
+
+/* center-back */
+.center-back{
+   background: url(images/center-modified.jpeg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 100%;
+   height: 50vh;
+}
+.center-back h1{
+   font-size: 3.5rem;
+   color: white;
+   position: relative;
+   top: 50%;
+   text-align: center
+}
+.center-intro{
+   margin: 50px auto;
+   text-align: center;
+}
+.centerimage1{
+   width: 450px;
+   height: 400px;
+   display: block;
+   margin: 0px auto;
+   border-radius: 100%;
+   border: solid 3px rgb(14, 196, 224)
+}
+.center-intro h5{
+   margin: 40px auto;
+   font-size: x-large;
+}
+.centerimage2{
+   width: 300px;
+   height: 200px;
+   display: block;
+   margin: 0px auto;
+}
+.center-intro2 p{
+   font-size: large;
+}
+.center-intro2  h3{
+   text-align: center;
+}
+.center-intro3 img{
+   width: 300px;
+   height: 200px;
+   margin-bottom: 40px;
+} 
+.center-intro3 h1{
+   text-align: center;
+   margin: 60px auto;
+}
+.center-intro3 img:hover{
+   transform: scale(1.1);
+   opacity: 0.5;
+}
+
+/* plantnutri */
+.plantnutri{
+   background: url(images/centerplantnutri.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 100%;
+   height: 50vh;
+}
+.plantnutri h1{
+   position: relative;
+   top: 30%;
+   color: white;
+   font-size: 3.5rem;
+}
+.plantnutri2 h4{
+   text-align: center;
+   margin:40px auto ;
+   width: 700px;
+   max-width: 100%;
+}
+
+/* lab intro */
+.labintro{
+   background: url(images/carousal3.webp);
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 100%;
+   height: 50vh;
+}
+.labintro h1{
+   font-size: 3.5rem;
+   position: relative;
+   top: 30%;
+   color: white;
+}
+.labintro2 h2{
+   text-align: center;
+   margin: 50px auto;
+}
+.labintro2 h4{
+   text-align: center;
+   margin: 30px auto;
+}
+
+/* contact secton */
+.contactintro{
+   width: 600px;
+   max-width: 100%;
+   margin: 0px auto;
+}
+.contactintro input{
+   padding: 15px;
+   margin: 10px;
+   width: 3o0px;
+}
+.contactintro select{
+   padding: 15px;
+   margin: 10px;
+   width: 460px;
+}
+.contactintro textarea{
+   margin: 20px auto;
+}
+.check{
+   display: block;
+}
+
+/* PRODUCT SECTION */
+.products-intro{
+   background: url(images/carouasal1.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   width: 100%;
+   height: 60vh;
+}
+.products-intro h1{
+   color: white;
+   position: relative;
+   top: 30%;
+   font-size: 3.5rem;
+}
+.products-intro span{
+   color: black;
+}
+.ferti{
+   border:solid 3px rgb(10, 220, 94) ;
+   border-radius: 20px;
+}
+.water{
+   width: 170px;
+   height: 200px;
+   margin: 40px 50px;
+   border: solid 3px black;
+}
+.water2{
+   width: 200px;
+   height: 250px;
+   margin: 20px auto;
+   display: block;
+   border: solid 3px black;
+}
+.patend2{
+   display: flex;
+   flex-wrap: wrap;
+   border: solid 3px skyblue;
+   border-radius: 20px;
+}
+.patend p{
+   text-align: center;
+}
+.patend h2{
+   margin: 20px auto;
+}
+.ferti p{
+   text-align: center;
+}
+.probtn{
+   display: block;
+   margin: 0 auto;
+   background-color: rgb(71, 235, 71);
+   padding: 8px;
+   border: none;
+   border-radius: 10px;
+   color: white;
+}
+.prohr{
+   width: 90%;
+   border: double 4px;
+   color: #f3961b;
+}
+
+/* Work with us  */
+.workintro{
+   background: url(images/WORKBACK.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 100%;
+   height: 50vh;
+}
+.workintro h1{
+   font-size: 3.5rem;
+   position: relative;
+   top: 30%;
+   color: white;
+}
+.workintro2{
+   text-align: center;
+   width: 70%;
+   margin: 40px auto;
+}
+.workimage{
+   width: 200px;
+   height: 180px;
+}
+.workdiv{
+   margin: 30px auto;
+}
+.workintro2 h1{
+   margin: 60px auto ;
+}
+.workslides{
+   margin: 0 auto;
+}
+.workintro3{
+   margin: 30px auro;
+   background-color: antiquewhite;
+}
+.workintro3 h1{
+   text-align: center;
+   margin: 40px auto;
+}
+.dropdown-menu{
+   background-color: gray;
+}
+
+.footerr a:hover{
+   color: white;
+}
+
+@media screen and (max-width:767px) {
+   .threew{
+      position: relative;
+      top: 30px;
+      right: 30px;
+   }
+   .playicon{
+      position: relative;
+      left: 220px;
+   }
+   .water{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+}
